@@ -81,7 +81,7 @@ require_once "config/config.php";
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
     <script src="assets/js/jquery-3.6.0.min.js"></script>
-    <script src="https://www.paypal.com/sdk/js?client-id=<?php echo CLIENT_ID; ?>&locale=<?php echo LOCALE; ?>"></script>
+    <script src="https://www.paypal.com/sdk/js?client-id=<?php echo CLIENT_ID; ?>&locale=<?php echo LOCALE; ?>&currency=<?php echo CURRENCY; ?>"></script>
     <script src="assets/js/scripts.js"></script>
     <script>
         mostrarCarrito();
